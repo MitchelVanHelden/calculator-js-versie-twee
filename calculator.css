@@ -4,18 +4,21 @@ body{
 }
 main{
 	width: 500px;
-	height: 700px;
+	height: 600px;
 	margin-left: auto;
 	margin-right: auto;
+	border: 4px solid yellow;
 }
 aside{
 	display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 200px;
+
 }
 button{
-	margin-left: 80px;
+	margin-left: 40px;
+	margin-right: 40px;
 	margin-bottom: 40px;
 	height: 45px;
 	width: 45px;
@@ -23,17 +26,21 @@ button{
 }
 button.c{
 	position: absolute;
-	top: 120px;
-	right: 425px;
+	top: 125px;
+	right: 435px;
 
 }
-span.type{
+span.som{
 	border: 2px solid black;
-	padding-left: 300px;
-	padding-top: 50px;
 	position: absolute;
-	top: 120px;
+	top: 110px;
 	left: 500px ;
+	height: 80px;
+	width: 300px;
+	background-color: white;
+	word-wrap: break-word;
+	overflow-x: scroll;
+
 }
 span.antwoord{
 	border: 2px solid black;
@@ -42,4 +49,5 @@ span.antwoord{
 	position: absolute;
 	top: 50px;
 	left: 500px ;
+	background-color: white;
 }
