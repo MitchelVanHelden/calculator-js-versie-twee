@@ -6,30 +6,35 @@
 	<link rel="stylesheet" type="text/css" href="Calculator.css" />
 </head>
 <body>
+<form name="calculator">
 <main>
-<span class="antwoord"></span>	
-<span class="som" id="som" ></span>
+
+<input type="text" name="text2" id="antwoord">
+<input type="text" name="txt1" id="som">
 
 <button id="c" class="c">C</button>
 <aside>
-	<button onclick="javascript:cijfer1(7)">7</button>
-	<button onclick="javascript:cijfer1(8)">8</button>
-	<button onclick="javascript:cijfer1(9)">9</button>
-	<button>+</button>
-	<button onclick="javascript:cijfer1(4)">4</button>
-	<button onclick="javascript:cijfer1(5)">5</button>
-	<button onclick="javascript:cijfer1(6)">6</button>
-	<button>-</button>
-	<button onclick="javascript:cijfer1(1)">1</button>
-	<button onclick="javascript:cijfer1(2)">2</button>
-	<button onclick="javascript:cijfer1(3)">3</button>
-	<button>÷</button>
-	<button onclick="javascript:cijfer1(0)">0</button>
-	<button>.</button>
-	<button>x</button>
-	<button>=</button>
+	<input type=button name=btn7 value=7 onclick="test(btn7.value)">
+	<input type=button name=btn8 value=8 onclick="test(btn8.value)">
+	<input type=button name=btn9 value=9 onclick="test(btn9.value)">
+	<input type=button name=addbtn value=+ onclick="test(addbtn.value)"
+	<input type=button name=btn4 value=4 onclick="test(btn4.value)">
+	<input type=button name=btn4 value=4 onclick="test(btn4.value)">
+	<input type=button name=btn5 value=5 onclick="test(btn5.value)">
+	<input type=button name=btn6 value=6 onclick="test(btn6.value)">
+	<input type=button name=subbtn value=- onclick="test(subbtn.value)">
+	<input type=button name=btn1 value=1 onclick="test(btn1.value)">
+	<input type=button name=btn2 value=2 onclick="test(btn2.value)">
+	<input type=button name=btn3 value=3 onclick="test(btn3.value)">
+	<input type=button name=btnmul value=* onclick="test(btnmul.value)">
+	<input type=button name=btn0 value=0 onclick="test(btn0.value)">
+	<input type=button name=potbtn value=. onclick="test(potbtn.value)">
+	<input type=button name=eqlbtn value== onclick="txt1.value=eval(txt1.value)">
+	<input type=button name=divbtn value=/ onclick="test(divbtn.value)">
+
 </aside>
 </main>
+</form>
 
 <script src="calculator.js" type="text/javascript" ></script>
 </body>
