@@ -48,7 +48,6 @@ input#som{
 }
 input#antwoord{
 	border: 2px solid black;
-	padding-left: 255px;
 	padding-top: 10px;
 	position: absolute;
 	top: 20px;
@@ -56,4 +55,6 @@ input#antwoord{
 	background-color: white;
 	border-radius: 0px;
 	text-align: right;
+	width: 300px;
+
 }
